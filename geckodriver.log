@@ -1,0 +1,107 @@
+1636078803408	geckodriver	INFO	Listening on 127.0.0.1:51617
+1636078864541	geckodriver	INFO	Listening on 127.0.0.1:51673
+1636078867529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51674" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile0lH36o"
+1636078868025	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile0lH36o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51674/devtools/browser/5315f8d5-d6b8-4403-9701-f7512c409989
+1636078870031	Marionette	INFO	Listening on port 51680
+1636078870211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+1636078871424	Marionette	INFO	Stopped listening on port 51680
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636078887568	geckodriver	INFO	Listening on 127.0.0.1:51744
+1636078890564	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51745" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileASmZfc"
+1636078890898	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileASmZfc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51745/devtools/browser/81e310a2-be00-4399-997c-9fe5ec120bca
+1636078892802	Marionette	INFO	Listening on port 51752
+1636078893231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636078901890	Marionette	INFO	Stopped listening on port 51752
+1636079244775	geckodriver	INFO	Listening on 127.0.0.1:62865
+1636079247775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62866" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile1EvHKc"
+1636079248107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile1EvHKc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62866/devtools/browser/ae061d47-2700-4441-9d9c-e9cace858b09
+1636079250200	Marionette	INFO	Listening on port 62873
+1636079250487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636079268048	Marionette	INFO	Stopped listening on port 62873
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636079298841	geckodriver	INFO	Listening on 127.0.0.1:62973
+1636079301846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62974" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile3qESZc"
+1636079302127	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile3qESZc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62974/devtools/browser/6cb7a9d7-59aa-4859-b4d8-3c01fc7cb645
+1636079304126	Marionette	INFO	Listening on port 62981
+1636079304501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636079335975	Marionette	INFO	Stopped listening on port 62981
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636079450279	geckodriver	INFO	Listening on 127.0.0.1:57131
+1636079453270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57132" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileRbV0il"
+1636079453544	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileRbV0il\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57132/devtools/browser/97c1c15a-3b7e-442d-b807-54306a45c6e3
+1636079455481	Marionette	INFO	Listening on port 57138
+1636079455929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636079474109	Marionette	INFO	Stopped listening on port 57138
+1636079632826	geckodriver	INFO	Listening on 127.0.0.1:60260
+1636079635826	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60261" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileT8gIzS"
+1636079636133	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileT8gIzS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60261/devtools/browser/0e30c398-f507-4ded-b100-3fea6af5cf40
+1636079637955	Marionette	INFO	Listening on port 60268
+1636079638021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+1636079645373	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1636080259036	Marionette	INFO	Stopped listening on port 60268
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileCVcACZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60336/devtools/browser/62742ea9-202c-417d-8c53-79b6f6643ea2
+1636079675429	Marionette	INFO	Listening on port 60342
+1636079675748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636079696574	Marionette	INFO	Stopped listening on port 60342
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636079729942	geckodriver	INFO	Listening on 127.0.0.1:60440
+1636079732949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60441" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileIHCm5Z"
+1636079733227	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileIHCm5Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60441/devtools/browser/6e2f2fe4-3100-4040-a242-78099aab0105
+1636079735288	Marionette	INFO	Listening on port 60448
+1636079735600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211025085801.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636079755449	Marionette	INFO	Stopped listening on port 60448
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
