@@ -7,10 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 import time
 
-capabilities = {
- "browserstack.timezone" : "Sao_Paulo"
- # ... other capabilities
-}
+
 
 #mandar por email as infos
 import smtplib
@@ -18,6 +15,8 @@ import email.message
 
 #1.Pega o HTML e navegar na pagina até o primeiro jogo
 url = "https://www.oddsportal.com/soccer/brazil/serie-a/flamengo-rj-atletico-go-bFKRrzEi/"
+home='"https://www.oddsportal.com/matches/"'
+
 #esconder a aba
 driver = webdriver.Firefox()
 driver.get(url)
@@ -52,7 +51,7 @@ def pegaOdds():
 #3.Printar essas informações
 #4.Retornar a pagina principal e executar o mesmo passo até o final da pagina
 pegaOdds()
-driver.get("https://www.oddsportal.com/matches/")
+driver.get(home)
 ##organizar o fuso
 #list_links = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[2]/div[3]/div[3]/div/div[3]/a/span').click()
 #list_links = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[2]/div[7]/div/a[64]/span').click()
@@ -70,3 +69,11 @@ pegaOdds()
 #//*[@id="table-matches"]/table/tbody/tr[6]/td[2]/a
 
 #driver.quit()
+##criar um filtro para analisar se é uma partida ou liga e assim entrar ou não,
+###procurar no html se acha o xpath no texto todo da pagina, caso sim, entrar caso n,somar 1 e seguir
+#link1=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[2]/td[2]/a
+#link2=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[4]/td[2]/a
+#link3=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[6]/td[2]/a
+##mesma camada
+#link4=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[12]/td[2]/a
+#link5=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[13]/td[2]/a
