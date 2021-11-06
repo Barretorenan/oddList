@@ -1286,3 +1286,158 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1636165683277	geckodriver	INFO	Listening on 127.0.0.1:64632
+1636165686290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64633" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile4m4QjU"
+1636165686609	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofile4m4QjU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64633/devtools/browser/d3df5031-558a-4f5e-97e1-0b0dc8814530
+1636165688635	Marionette	INFO	Listening on port 64639
+1636165688954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.oddsportal.com/matches/soccer/20211105/, line 196: ReferenceError: Tabs is not defined
+JavaScript error: https://www.oddsportal.com/matches/soccer/20211105/, line 196: ReferenceError: Tabs is not defined
+JavaScript error: https://www.oddsportal.com/matches/soccer/20211105/, line 1838: ReferenceError: calendar is not defined
+JavaScript error: https://www.oddsportal.com/matches/soccer/20211105/, line 2140: ReferenceError: OpHandler is not defined
+JavaScript error: https://www.oddsportal.com/matches/soccer/20211105/, line 2156: ReferenceError: BannerHandler is not defined
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1636167025560	Marionette	INFO	Stopped listening on port 64639
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+791337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636165820989	Marionette	INFO	Stopped listening on port 63117
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636166088680	geckodriver	INFO	Listening on 127.0.0.1:63403
+1636166091668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63404" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofilenIpf18"
+1636166091953	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofilenIpf18\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63404/devtools/browser/122be83e-ba82-495e-8848-2f223a08224b
+1636166094043	Marionette	INFO	Listening on port 63410
+1636166094349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1636167026353	Marionette	INFO	Stopped listening on port 63410
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+stening on ws://localhost:50855/devtools/browser/7e1f66f5-4bb1-4ab3-9281-ee4f1a0997ce
+1636166672966	Marionette	INFO	Listening on port 50862
+1636166673257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636166683054	Marionette	INFO	Stopped listening on port 50862
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636166903879	geckodriver	INFO	Listening on 127.0.0.1:55060
+1636166906852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55061" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofilexyk5G6"
+1636166907140	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofilexyk5G6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55061/devtools/browser/c8112407-67f8-4fcd-a5de-d89ce4ac7773
+1636166909204	Marionette	INFO	Listening on port 55067
+1636166909549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636166919491	Marionette	INFO	Stopped listening on port 55067
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636167021043	geckodriver	INFO	Listening on 127.0.0.1:55202
+1636167024051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55203" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileOw8HOM"
+1636167024342	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileOw8HOM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55203/devtools/browser/669bb0b8-18ed-43f9-adb2-9e0c9d871b27
+1636167026643	Marionette	INFO	Listening on port 55210
+1636167026727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636167036304	Marionette	INFO	Stopped listening on port 55210
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636167358365	geckodriver	INFO	Listening on 127.0.0.1:52242
+1636167361358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52243" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileKN7NGs"
+1636167361665	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileKN7NGs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52243/devtools/browser/9d628125-e9c6-47b2-be08-ce1ec081ffa3
+1636167363564	Marionette	INFO	Listening on port 52250
+1636167364009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636167374583	Marionette	INFO	Stopped listening on port 52250
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636167441816	geckodriver	INFO	Listening on 127.0.0.1:52386
+1636167444814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52387" "-no-remote" "-profile" "C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileBr7bqK"
+1636167445101	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Barreto\\AppData\\Local\\Temp\\rust_mozprofileBr7bqK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52387/devtools/browser/60f1e354-573b-4161-b1c6-1821ede89ca7
+1636167447468	Marionette	INFO	Listening on port 52393
+1636167447513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636167577422	Marionette	INFO	Stopped listening on port 52393
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+WCaK8S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52524/devtools/browser/1b134aeb-93d4-4236-a6f4-de168c158d10
+1636167543212	Marionette	INFO	Listening on port 52531
+1636167543355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.oddsportal.com/res/x/global-211105115138.js, line 1: unreachable code after return statement
+JavaScript warning: https://cdn.ftd.agency/libs/e.js, line 47: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1636167612710	Marionette	INFO	Stopped listening on port 52531
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

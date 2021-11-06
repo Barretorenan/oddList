@@ -86,13 +86,23 @@ def pegaOdds():
     print(df)
 
 
+
+
 def pegaMAXMIN():
+    driver.get(url)
+    driver.find_element(By.XPATH, '//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
     print("Max")
+    elemento=driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/tbody/tr[1]/td[2]/div')
+    elemnto2=elemento.get_attribute('outerHTML')
+
+
+
+    print(elemento.getText())
     #pega o primeiro valor da casa 1
 
 
-
-entra_Partida(2)
+pegaMAXMIN()
+#entra_Partida(2)
 
 #3.Printar essas informações
 #4.Retornar a pagina principal e executar o mesmo passo até o final da pagina
