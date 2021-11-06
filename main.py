@@ -11,7 +11,7 @@ import smtplib
 import email.message
 from datetime import datetime
 
-
+##Pegar a hora atual para analisar a coluna de horas e procurar se ainda vai ocorrer, colocar um contador de erros no if caso ocorra 5 else consecutivos, para o programa, no true colocar um zerador
 contador=2
 #pega a data e transforma em formula para o link
 data=datetime.today().strftime('%Y-%m-%d')
@@ -29,13 +29,9 @@ driver.get(home)
 def entra_Partida(contador):
     xpath_jogos = ('//*[@id="table-matches"]/table/tbody/tr[{}]/td[2]/a'.format(contador))
     if analisa_Xpath(xpath_jogos)==True:
-        print(contador)
         driver.find_element(By.XPATH, ('{}').format(xpath_jogos)).click()
         pegaOdds()
-        print(xpath_jogos)
-        print(contador)
         contador=contador+1
-        print(contador)
         driver.get(home)
         entra_Partida(contador)
     else:
@@ -43,7 +39,7 @@ def entra_Partida(contador):
         entra_Partida(contador)
 
 
-#element=driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
+
 def analisa_Xpath(link):
     xpath=True
     try:
@@ -61,8 +57,17 @@ def pegaOdds():
     driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
 #pega maior odd time 1
     driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
-
+#pega menor odd time 1
+    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
+#pega maior empate
+    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
+#pega menor odd empata
+    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
+#pega maior odd time 2
+    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
 #pega menor odd time 2
+
+#Pega nomes dos times da casa e visitante
     times = driver.find_element(By.XPATH, '//*[@id="col-content"]/h1')
     strTimes = times.get_attribute('outerHTML')
     strTimes_text = strTimes.replace('<h1>', '')
@@ -81,57 +86,14 @@ def pegaOdds():
     print(df)
 
 
-
-
+def pegaMAXMIN():
+    print("Max")
+    #pega o primeiro valor da casa 1
 
 
 
 entra_Partida(2)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #3.Printar essas informações
 #4.Retornar a pagina principal e executar o mesmo passo até o final da pagina
-#pegaOdds()
-#driver.get(home)
-##organizar o fuso
-#list_links = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[2]/div[3]/div[3]/div/div[3]/a/span').click()
-#list_links = driver.find_element(By.XPATH,'/html/body/div[1]/div/div[2]/div[7]/div/a[64]/span').click()
-#############list_links = driver.find_element(By.XPATH,'//*[@id="table-matches"]/table/tbody/tr[2]/td[2]/a[2]').click()
-#pegaOdds()
-
-#driver.get("https://www.oddsportal.com/matches/")
-###########list_links = driver.find_element(By.XPATH,'//*[@id="table-matches"]/table/tbody/tr[4]/td[2]/a').click()
-#pegaOdds()
-
-#driver.get("https://www.oddsportal.com/matches/")
-###########list_links = driver.find_element(By.XPATH,'//*[@id="table-matches"]/table/tbody/tr[6]/td[2]/a').click()
-#pegaOdds()
-
-#//*[@id="table-matches"]/table/tbody/tr[6]/td[2]/a
-
-#driver.quit()
-##criar um filtro para analisar se é uma partida ou liga e assim entrar ou não,
-###procurar no html se acha o xpath no texto todo da pagina, caso sim, entrar caso n,somar 1 e seguir
-#link1=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[2]/td[2]/a
-#link2=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[4]/td[2]/a
-#link3=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[6]/td[2]/a
-##mesma camada
-#link4=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[12]/td[2]/a
-#link5=/html/body/div[1]/div/div[2]/div[6]/div[1]/div/div[1]/div[2]/div[1]/div[7]/table/tbody/tr[13]/td[2]/a
+driver.quit()
