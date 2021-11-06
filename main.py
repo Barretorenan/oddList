@@ -18,7 +18,7 @@ data=datetime.today().strftime('%Y-%m-%d')
 data = data.replace('-', '')
 #pagina do dia
 home=("https://www.oddsportal.com/matches/soccer/{}/".format(data))
-xpath_jogos=('//*[@id="table-matches"]/table/tbody/tr[{}]/td[2]/a'.format(contador))
+
 
 #1.Pega o HTML e navegar na pagina até o primeiro jogo
 url = "https://www.oddsportal.com/soccer/brazil/serie-a/flamengo-rj-atletico-go-bFKRrzEi/"
@@ -26,17 +26,21 @@ url = "https://www.oddsportal.com/soccer/brazil/serie-a/flamengo-rj-atletico-go-
 #####esconder a aba
 driver = webdriver.Firefox()
 driver.get(home)
-def entra_Partida():
+def entra_Partida(contador):
+    xpath_jogos = ('//*[@id="table-matches"]/table/tbody/tr[{}]/td[2]/a'.format(contador))
     if analisa_Xpath(xpath_jogos)==True:
+        print(contador)
         driver.find_element(By.XPATH, ('{}').format(xpath_jogos)).click()
         pegaOdds()
         print(xpath_jogos)
-        contador==contador+1
+        print(contador)
+        contador=contador+1
+        print(contador)
         driver.get(home)
-        entra_Partida()
+        entra_Partida(contador)
     else:
-        contador==contador+1
-        entra_Partida()
+        contador=contador+1
+        entra_Partida(contador)
 
 
 #element=driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
@@ -57,14 +61,7 @@ def pegaOdds():
     driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
 #pega maior odd time 1
     driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
-#pega menor odd time 1
-    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
-#pega maior empate
-    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
-#pega menor odd empata
-    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
-#pega maior odd time 2
-    driver.find_element(By.XPATH,'//*[@id="odds-data-table"]/div[1]/table/thead/tr/th[2]/a').click()
+
 #pega menor odd time 2
     times = driver.find_element(By.XPATH, '//*[@id="col-content"]/h1')
     strTimes = times.get_attribute('outerHTML')
@@ -89,7 +86,7 @@ def pegaOdds():
 
 
 
-entra_Partida()
+entra_Partida(2)
 
 
 
