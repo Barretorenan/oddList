@@ -11,12 +11,14 @@ import smtplib
 import email.message
 from datetime import datetime
 
+#pegar os dois primeiros pra comparar com a hora da tabela
+print(datetime.now().time())
+
 ##Pegar a hora atual para analisar a coluna de horas e procurar se ainda vai ocorrer, colocar um contador de erros no if caso ocorra 5 else consecutivos, para o programa, no true colocar um zerador
 contador=2
 #pega a data e transforma em formula para o link
 data=datetime.today().strftime('%Y-%m-%d')
 data = data.replace('-', '')
-print(data)
 #pagina do dia
 home=("https://www.oddsportal.com/matches/soccer/{}/".format(data))
 #1.Pega o HTML e navegar na pagina até o primeiro jogo
